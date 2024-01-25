@@ -1,0 +1,61 @@
+.navbar {
+    padding: 1rem 7rem;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background: #18242F;
+
+    .logo {
+        display: flex;
+
+        .logo-link {
+            gap: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+
+            img {
+                width: 3.5rem;
+                height: 3.5rem;
+            }
+
+            span {
+                color: #E9BD45;
+                font-size: 2rem;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-family: 'Righteous', sans-serif;
+            }
+        }
+
+
+    }
+
+    .menu {
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 2px;
+
+        .menu-links {
+            text-decoration: none;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+
+
+    .sign-in {
+        background: transparent;
+        border: #E9BD45 solid 1px;
+        color: #E9BD45;
+        padding: 0 30px;
+        letter-spacing: 2px;
+        font-size: 1rem;
+        font-family: 'Roboto', sans-serif;
+    }
+}
