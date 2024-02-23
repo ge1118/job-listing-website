@@ -3,7 +3,7 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    background: #18242F;
+    // background: #18242F;
 
     .logo {
         display: flex;
@@ -28,8 +28,6 @@
                 font-family: 'Righteous', sans-serif;
             }
         }
-
-
     }
 
     .menu {
@@ -48,7 +46,6 @@
         }
     }
 
-
     .sign-in {
         background: transparent;
         border: #E9BD45 solid 1px;
@@ -57,5 +54,6 @@
         letter-spacing: 2px;
         font-size: 1rem;
         font-family: 'Roboto', sans-serif;
+        cursor: pointer;
     }
 }

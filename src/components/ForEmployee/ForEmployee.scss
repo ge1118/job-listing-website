@@ -1,0 +1,77 @@
+.foremployee {
+    display: flex;
+    padding: 2rem 5rem;
+    background: #fff;
+    gap: 3rem;
+    justify-content: space-between;
+    padding-bottom: 7rem;
+    align-items: center;
+
+    .employee-left {
+        flex: 1 1;
+        position: relative;
+
+        .pentagon1 {
+            position: relative;
+            top: 3.5rem;
+            left: 14rem;
+            width: 370px;
+            height: 530px;
+            background-color: #E9BD45;
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 20%, 80% 0%);
+        }
+
+        .pentagon2 {
+            position: absolute;
+            top: 2rem;
+            left: 16rem;
+            width: 450px;
+            height: 530px;
+            background: url('../../assets/images/employee-image.jpg');
+            background-size: cover;
+            clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 20%, 80% 0%);
+        }
+    }
+
+    .employee-right {
+        flex: 1 1;
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+
+        .employee-text {
+            width: 40rem;
+            display: flex;
+            gap: 1rem;
+            flex-direction: column;
+
+            h3 {
+                font-size: 1.5rem;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                line-height: 3rem;
+            }
+
+            p {
+                color: #7e7e7e;
+                line-height: 1.6rem;
+            }
+        }
+
+        button {
+            background: #18242F;
+            color: #fff;
+            border: none;
+            outline: none;
+            width: 15rem;
+            padding: 1rem 2rem;
+            border-radius: 3px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+
+}

@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom'
 import './NavBar.scss'
+import Logo from '../../assets/images/logo.png'
 
 const NavBar = () => {
     return (
         <div className="navbar">
             <div className="logo">
                 <Link className='logo-link'>
-                    <img src="/images/logo.png" alt="Logo" />
+                    <img src={Logo} alt="Logo" />
                     <span>Find Job</span>
                 </Link>
             </div>

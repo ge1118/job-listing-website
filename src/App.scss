@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&family=Righteous&family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  background: #18242F;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 2000px;
+  margin: 0 auto;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
